@@ -7,3 +7,4 @@ if (bitcoinPrice <= 20000 || bitcoinPrice < 40000){
 } else {
   console.log("Sell it now ! Don't be too greedy.")
 }
+
