@@ -11,7 +11,6 @@ if ((player1 && !player2 ) || (!player1 && player2)) {
 }
 
 
-
-
+// if ((a || b) && !(a && b))
 
 

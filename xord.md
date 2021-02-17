@@ -18,3 +18,5 @@
 | `true`  | `true`  | `false` |
 
 - Operateur XOR renvoie 1 seulement si une seule des 2 inputs envoie 1.
+  XOR : Un OU exclusif
+  "Soit l'un soit l'autre mais pas les deux"

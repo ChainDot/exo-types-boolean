@@ -21,7 +21,7 @@ let res6 = (!(20 >= 20) && 7 === 7) || true
 //  res6 =     ( false  &&   true ) || true  =   true
 console.log(res6)
 
-let res7 = '1' === 1 && '2' == 2 && '3' === 3
+let res7 = '1' === 1 && '2' === 2 && '3' === 3
 //  res7 =    false  &&   false  &&    false  = false
 console.log(res7)
 
@@ -36,3 +36,14 @@ console.log(res9)
 let res10 = (res1 && res2) || (res3 && res4) || (res5 && res6) || (res7 && res8 && res9)
 //  res10 =       false    ||      true      ||      false     ||         false           =   true
 console.log(res10)
+
+let arrayBoolean = [res1, res2, res3, res4, res5, res6, res7, res8, res9, res10]
+
+for (let i= 1; i <= 10; i++) {
+   if (arrayBoolean[i] === true){
+   console.log(`res${i} is true`)
+  } else {
+    console.log(`res${i} is false`)
+  }
+}
+
